@@ -15,3 +15,7 @@ outside the it block?
 
 Question 3. In your README to the best of your knowledge please explain the difference between using === and == in JS?
 - 
+
+
+Question 4. In your README to the best of your knowledge please explain why we are moving (number % 5 === 0) to the top?
+- 
