@@ -19,3 +19,8 @@ Question 3. In your README to the best of your knowledge please explain the diff
 
 Question 4. In your README to the best of your knowledge please explain why we are moving (number % 5 === 0) to the top?
 - 
+
+
+Question 5. In your README to the best of your knowledge please explain the difference between feature and unit test
+- Feature tests are to test what the user see, eg buttons, dropdown, result for a scenario.
+- Unit tests are to test the actual code, that the logic is correct and to minimize the number of bugs.
