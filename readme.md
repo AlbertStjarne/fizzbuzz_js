@@ -18,7 +18,7 @@ Question 3. In your README to the best of your knowledge please explain the diff
 
 
 Question 4. In your README to the best of your knowledge please explain why we are moving (number % 5 === 0) to the top?
-- 
+- Just for clarity, to have the code descending. It has no impact on the running of the code. Once adding the (number % 15 === 0), the new code has to be on top. I do prefer to write this code as (number % 5 === 0 && number % 3 === 0) since we are then really stating what we mean, a bit longer but more explainatory in my mind.
 
 
 Question 5. In your README to the best of your knowledge please explain the difference between feature and unit test
