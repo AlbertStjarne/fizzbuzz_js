@@ -5,12 +5,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+  <title>FizzBuzz</title>
 </head>
 
-<body>
-  <input type="text" id="value">
-  <input type="submit" value="Check" id="button">
-  <div id="display_answer"></div>  
+<body class="bg-grey-lighter m-4">
+  <h1 class="text-3xl font-medium text-grey-darkest m-4">Enter a number and it will be fizzbuzzed</h1>
+  <input type="text" id="value" placeholder="Your number here" class="bg-grey-lightest shadow text-xl text-grey-base m-4">
+  <input type="submit" value="Check" id="button" class="bg-grey-dark hover:bg-grey-darker text-grey-lighter text-xl font-medium py-2 px-4 border border-blue-darker rounded shadow tracking-wide">
+  <div id="display_answer" class="text-xl m-4"></div>  
 </body>
 
 <script src="src/js/fizz-buzz.js"></script>
