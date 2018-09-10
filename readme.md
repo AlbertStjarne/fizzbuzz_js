@@ -27,8 +27,9 @@ Thanks to the coaches for support during the project.
 
 ## Answers to questions in the weekend challenge
 
-###Question 1.
+### Question 1.
 Explain what the following lines of code do
+
 ```let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
 eval( fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`)```
 * 
