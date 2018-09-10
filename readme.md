@@ -30,8 +30,8 @@ Thanks to the coaches for support during the project.
 ### Question 1.
 Explain what the following lines of code do
 
-```let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
-eval( fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`)```
+let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
+eval( fizzBuzz + `\nexports.FizzBuzz = FizzBuzz;`)
 * 
 
 
@@ -67,7 +67,8 @@ Explain what expectations in the context of testing are
 ### Question 7.
 Write a line to line explanation of what is happening in this code
 
-```<script src="src/js/fizz-buzz.js"></script>                      // source for the script file is fizz-buzz.js
+```
+<script src="src/js/fizz-buzz.js"></script>                      // source for the script file is fizz-buzz.js
 <script>
 document.addEventListener('DOMContentLoaded', () => {           // in 
 let button = document.getElementById('button')              // initialize variable button, that equals the button element id in the html
@@ -79,7 +80,8 @@ let result = fizzBuzz.check(value)  // initialize result variable and assigns it
 displayDiv.innerHTML = result;  // finds the innerHTML of the displayDiv variable ('display_answer') and assign it the result.
 })
 })
-</script>```
+</script>
+```
 * general:
 ..* script tags used to run javascript within the html document instead of in its own file.
 ..* document refers to this document, thus the index.html file
